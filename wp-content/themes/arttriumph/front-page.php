@@ -22,7 +22,7 @@ get_header();
 				</a>
 			</div>
 			
-			<div class="row row-cols-1 mt-4 row-cols-md-2">
+			<div class="row row-cols-1 mt-4 row-cols-md-2 pd-10">
 				<div class="col mb-4">
 				  <div class="card">
 					<div class="card-body">
