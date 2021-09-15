@@ -3,23 +3,13 @@ get_header();
 ?>
 <main id="site-content" role="main">
 	<div class="section-inner thin">
-		<!-- <header class="page-title theme-bg-light text-center gradient py-5">
-			<h1 class="heading">Artrium</h1>
-			<ul class="social-list list-inline py-3 mx-auto">
-                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
-            </ul>
-		</header> -->
 
-		<article class="content px-3 py-5 p-md-5">
+		<article class="content">
 	    <div class='container'>
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 				  <div class="carousel-item active">
-					<img src="/assets/images/LandscapeNearAntwerp.jpg" class="d-block w-100" alt="1">
+					<img src="wp-content/themes/arttriumph/assets/images/LandscapeNearAntwerp.jpg" class="d-block w-100" alt="Landscape Near Antwerp">
 				  </div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -49,8 +39,10 @@ get_header();
 						</div>
 				  </div>
 				</div>
+			</div>
 
-				<section class="border-dark py-5 mt-4 text-center">
+			<div class="row row-cols-1 mt-4 row-cols-md-2">
+				<section class="border-dark py-5 mt-4 text-center newsletter">
 					<h3 class='text-dark d-block'>Stay up to date with every uncoming event</h3>
 					<form class="signup-form form-inline justify-content-center pt-3">
 						<div class="form-group">

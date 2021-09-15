@@ -213,6 +213,7 @@ h6 {
     transition:all .2s;
     padding-top : 1rem;
     padding-bottom: 3rem;
+    background-color: #fff;
 }
 .sticky{
     padding:1em 0 !important;
@@ -377,6 +378,13 @@ h6 {
 
 .content .blockquote p {
     font-size: 1.5rem
+}
+
+.container{
+    width: 100%;
+    padding: 0px!important;
+    margin: 0px!important;
+    max-width: 100%;
 }
 
 @media (prefers-reduced-motion: reduce) {
