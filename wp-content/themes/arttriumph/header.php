@@ -32,12 +32,9 @@
 
 		<header id="site-header" class="header-footer-group page-title text-center border-bot" role="banner">
 
-            <h1 class="heading">ArtTriumph Gallery</h1>
-			<ul class="social-list list-inline">
-                <li class="list-inline-item"><a href="#">Your Visit</a></li>
-                <li class="list-inline-item"><a href="#">Discover</a></li>
-                <li class="list-inline-item"><a href="#">Our Program</i></a></li>
-                <li class="list-inline-item"><a href="#">About us</i></a></li>
-            </ul>
+			<?php get_template_part( 'template-parts/site-branding' ); ?>
+			<?php get_template_part( 'template-parts/site-nav' ); ?>
 
 		</header><!-- #site-header -->
+
+		

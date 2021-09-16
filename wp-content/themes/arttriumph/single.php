@@ -3,14 +3,14 @@ get_header();
 ?>
     <main id="site-content"  class="blog-post pd-10" role="main">
 		<div class="section-inner thin">
-            <article class="content content-archive">
+            <article class="content">
 
                 <?php 
                 if( have_posts() ){
                     while(have_posts()){
                         the_post();
 
-                        get_template_part('template-parts/content', 'collection');
+                        get_template_part('template-parts/content', 'article');
                     }
                 }
                 ?>

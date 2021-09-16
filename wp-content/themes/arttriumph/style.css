@@ -52,6 +52,7 @@ Author: Candice Ariel
 
 html {
     line-height: 1.15;
+    margin-top: 0px!important;
 }
 body {
     color: var(--secondary);
@@ -114,8 +115,40 @@ h6 {
     padding: 10px;
 }
 
+.mg-right-10{
+    margin-right: 10px;
+}
+
+/* ARCHIVE */
+.container-archive{
+    width: 50%;
+}
+
+.content-archive{
+    display: flex;
+}
+
+.site-nav{
+    width: 60%;
+    /* height: 100%; */
+    float: right;
+    padding: 7px 0px;
+}
+
+.site-branding{
+    width: 40%;
+    /* height: 100%; */
+    float: left;
+}
+
+.blog-post{
+    max-width: 950px;
+    margin: 0px auto;
+    text-align: justify;
+}
+
 .carousel{
-    height: 89.5vh;
+    height: calc(100vh - 82px);
 }
 
 .carousel-inner{
@@ -192,12 +225,14 @@ h6 {
     width:78px;
 }
 
-.social-list {
+.nav-list {
     float: right;
     width: 60%;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
 }
 
-.social-list a {
+.nav-list a {
     padding-top: 5px;
     display: inline-block;
     text-align: center;
@@ -205,8 +240,9 @@ h6 {
     color: #191919;
 }
 
-.social-list a:hover {
+.nav-list a:hover {
     color: var(--secondary);
+    text-decoration: none;
     background-color: rgba(255, 255, 255, 0.8)
 }
 
@@ -218,13 +254,27 @@ h6 {
 .main-wrapper .container {
     max-width: var(--content-max-width);
 }
+
+.cust-logo{
+    color: var(--gray-dark);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.cust-logo:hover{
+    color: var(--gray-dark);
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
 .page-title {
     position:sticky;
     top:0;
     z-index:9999;
     transition:all .2s;
-    padding-top : 1rem;
-    padding-bottom: 3rem;
+    height: 82px;
+    padding: 10px 0px;
     background-color: #fff;
 }
 .sticky{
@@ -262,7 +312,7 @@ h6 {
 }
 
 .content .post .post-thumb {
-    max-width: 160px;
+    max-width: 80%;
     border-radius: 2px
 }
 
@@ -400,7 +450,7 @@ h6 {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .social-list a {
+    .nav-list a {
         transition: none
     }
     .btn {
